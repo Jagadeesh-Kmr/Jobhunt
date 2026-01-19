@@ -1,10 +1,15 @@
 // import {Routes, Route, BrowserRouter} from 'react-router-dom'
+import Login from "./pages/Login";
+// import Register from "./pages/Register";
+// import Dashboard from "./pages/Dashboard";
+// import ProtectedRoute from "./components/ProtectedRoute";
+
 
 const App = () => {
   return (
-    <div className="bg-blue-100 text-center p-8 rounded-lg shadow-md">
-      <h1 className="text-3xl font-bold text-blue-600">Welcome to JobHunt</h1>
-    </div>
+   <>
+   <Login />
+   </>
   );
 };
 
